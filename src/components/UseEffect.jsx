@@ -20,12 +20,9 @@ const UseEffect = () => {
     return (
         <div>
             <h1>UseEffect</h1>
-
-
             <button onClick={() => setNum(num - 1)} >-</button>
             <span>{num}</span>
             <button onClick={() => setNum(num + 1)} >+</button>
-
             <br /><br />
             <button onClick={() => setLoadAgain(!loadAgain)} >Change Load Value</button>
 

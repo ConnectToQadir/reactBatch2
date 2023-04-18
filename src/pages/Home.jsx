@@ -2,6 +2,7 @@ import NavBar from "../components/NavBar/NavBar"
 import Footer from "../components/Footer/Footer"
 import UseEffect from "../components/UseEffect"
 import UseState from "../components/UseState"
+import UseReducer from "../components/UseReducer"
 
 const Home = () => {
 
@@ -31,7 +32,8 @@ const Home = () => {
 
 
       {/* <UseState /> */}
-      <UseEffect />
+      {/* <UseEffect /> */}
+      <UseReducer />
 
       <hr />
 
